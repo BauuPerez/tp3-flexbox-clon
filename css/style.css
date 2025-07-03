@@ -5,13 +5,13 @@ body {
     background: #000;
 }
 
-/* Estructura principal del header */
+/* HEADER */
 .header {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     padding: 64px 8vw 32px 8vw;
-    background-image: url('../img/fondo-header1.jpg');
+    background-image: url('../img/pexels-olia-danilevich-4974920.jpg');
     background-size: cover;
     background-position: 0% 30%;
     position: relative;
@@ -120,7 +120,7 @@ img:hover {
 }
 
 
-
+/* HERO*/
 .hero {
     display: flex;
     align-items: center;
@@ -166,9 +166,9 @@ img:hover {
   width: 900px;
   height: 400px;
   background-image: url('../img/pexels-cottonbro-5483077.jpg');
-  background-position: center;         /* Centra la imagen */
-  background-size: cover;              /* Cubre todo el contenedor */
-  background-repeat: no-repeat;        /* No se repite */
+  background-position: center;         
+  background-size: cover;              
+  background-repeat: no-repeat;        
   border-radius: 10%;
   box-shadow: 0 8px 32px rgba(62, 62, 230, 0.10);
   margin: 0 auto;
@@ -182,7 +182,7 @@ img:hover {
 
 
 
-
+/* SERVICES */
 .services {
   padding: 270px 8vw;
   background: linear-gradient(90deg, #d3d3d3 60%, #000000 100%);
@@ -224,7 +224,7 @@ img:hover {
 }
 
 
-
+/* FOOTER */
 .footer {
     background: #000000;
     padding: 120px 8vw;
