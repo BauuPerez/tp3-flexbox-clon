@@ -1,77 +1,202 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BJ devs</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
     <header class="header">
-        <img src="img/logosinfondo.png" alt="Logo">
-        <div class="header-right">
-            <div class="header-icons">
-                <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
-                <a href="#" title="Google"><i class="fab fa-google-plus-g"></i></a>
-                <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-            <nav class="nav">
-                <a href="#inicio">Inicio</a>
-                <a href="#servicios">Servicios</a>
-                <a href="#portafolio">Portafolio</a>
-                <a href="#contacto">Contacto</a>
-                <a href="#" class="search-icon" title="Buscar"><i class="fas fa-search"></i></a>
-            </nav>
+      <div class="header-left">
+        <a href="#">SERVICIOS</a>
+        <span>|</span>
+        <a href="#">PRECIOS</a>
+        <span>|</span>
+        <a href="#">SOLICITAR PRESUPUESTO</a>
+      </div>
+
+      <div class="header-right">
+        <div class="header-icons">
+          <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" title="Google"><i class="fab fa-google-plus-g"></i></a>
+          <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
         </div>
-    </header>
-    
-    <main>
-        <section id="inicio" class="hero">
-            <div class="hero-content">
-                <h1>Diseño fácil y profesional</h1>
-                <p>Soluciones creativas para tu negocio. Branding, web y más.</p>
-                <a href="#contacto" class="btn">Solicitar servicio</a>
-            </div>
-            <div class="hero-img"></div>
-        </section>
-        
-        <section id="servicios" class="services">
-            <h2>Nuestros servicios</h2>
-            <div class="services-list">
-                <div class="service-card">
-                    <h3>Branding</h3>
-                    <p>Construimos tu identidad visual con logos, colores y elementos que representen la esencia de tu marca.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Diseño Web</h3>
-                    <p>Webs modernas y responsivas que se adaptan a cualquier dispositivo y ofrecen una experiencia única.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Social Media</h3>
-                    <p>Contenido visual para redes sociales que conecta con tu audiencia y aumenta tu presencia digital.</p>
-                </div>
-            </div>
-        </section>      
-    </main>
-    
-    <footer class="footer">
-        <div class="footer-social">
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-        </div>
-        <nav class="footer-nav">
-            <a href="#inicio">Inicio</a>
-            <a href="#servicios">Servicios</a>
-            <a href="#portafolio">Portafolio</a>
-            <a href="#contacto">Contacto</a>      
+
+        <nav class="nav">
+          <img src="img/logosinfondo.png" alt="Logo" />
+          <a href="#">Hogar</a>
+          <a href="#">Acerca de</a>
+          <a href="#">Servicios</a>
+          <a href="#">Cartera</a>
+          <a href="#">Precios</a>
+          <a href="#">Blog</a>
+          <a href="#">Contacto</a>
+          <a href="#" class="search-icon" title="Buscar"
+            ><i class="fas fa-search"></i
+          ></a>
         </nav>
-        <div class="footer-copy">
-            © 2025 BJ devs | Todos los derechos reservados
+      </div>
+    </header>
+
+    <main>
+      <section id="nosotros" class="nosotros">
+        <div class="nosotros-content">
+          <div class="texto">
+            <h2>Acerca de BJ devs</h2>
+            <p>
+              Bj devs es una agencia de diseño premium que se centra en la
+              calidad, la innovación y la velocidad...
+            </p>
+            <h3>Filosofía</h3>
+            <p>
+              Nuestra filosofía empresarial es crear sitios web elegantes,
+              rápidos, compatibles y fáciles de usar.
+            </p>
+            <h3>Misión</h3>
+            <p>
+              Hemos diseñado nuestros procesos para que incluso pequeñas
+              empresas puedan tener una web profesional.
+            </p>
+          </div>
+          <div class="imagen">
+            <img
+              src="img/pexels-tima-miroshnichenko-5380611.jpg"
+              alt="Imagen de la empresa"
+            />
+          </div>
         </div>
+      </section>
+
+      <section class="equipo">
+        <div class="equipo-texto">
+          <div>
+            <h4>GRUPO <span>DE DISEÑO</span></h4>
+            <p>
+              Con nuestros galardonados diseñadores internos, garantizamos que
+              tus ideas se hagan realidad.
+            </p>
+          </div>
+          <div>
+            <h4>GRUPO <span>DE DESARROLLO</span></h4>
+            <p>
+              Contamos con amplia experiencia en desarrollo móvil y web para
+              diversas plataformas.
+            </p>
+          </div>
+        </div>
+        <div class="equipo-fotos">
+          <img
+            src="img/team/pexels-ketut-subiyanto-4584095.jpg"
+            alt="Miembro del equipo"
+          />
+          <img
+            src="img/team/pexels-oluwaseun-adekoya-670640633-17798551.jpg"
+            alt="Miembro del equipo"
+          />
+          <img
+            src="img/team/pexels-tochukwu-ekeh-2149052634-32160350.jpg"
+            alt="Miembro del equipo"
+          />
+          <img
+            src="img/team/pexels-waldirevora-15037720.jpg"
+            alt="Miembro del equipo"
+          />
+        </div>
+      </section>
+
+      <section class="contacto">
+        <div class="contacto-content">
+          <h2>Comencemos tu proyecto</h2>
+          <p>
+            Le ayudaremos a alcanzar sus objetivos y hacer crecer su negocio.
+          </p>
+          <a href="#contacto" class="contacto-btn">Solicitar una cotización</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-grid">
+      <div class="footer-section">
+        <h4>SOBRE NOSOTROS</h4>
+        <p>
+          BJ devs destaca en diseño personalizado y desarrollo front-end. Nos
+          apasionan los proyectos desafiantes que requieren una estrategia de
+          contenido integral, un diseño meticuloso, un desarrollo exigente y
+          marketing continuo.
+        </p>
+        <p>
+          <strong>Dirección:</strong> 212, Brooklyn, Nueva York<br />
+          <strong>Tel:</strong> 987.654.3210
+        </p>
+        <div class="footer-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <h4>PUBLICACIONES RECIENTES</h4>
+        <ul class="footer-posts">
+          <li>
+            <img src="img/pexels-viktoria-slowikowska-5332246.jpg" alt="Post 1" />
+            <div>
+              <p>Soporte en vivo, clave para una satisfacción sin fin</p>
+              <span>4 de febrero de 2016</span>
+            </div>
+          </li>
+          <li>
+            <img src="img/pexels-olia-danilevich-4974920.jpg" alt="Post 2" />
+            <div>
+              <p>Prueba de control de tráfico de los taxis de Nueva York</p>
+              <span>4 de febrero de 2016</span>
+            </div>
+          </li>
+          <li>
+            <img src="img/pexels-moose-photos-170195-1586973.jpg" alt="Post 3" />
+            <div>
+              <p>Servidores fuertes, servicios amigables con el cliente.</p>
+              <span>4 de febrero de 2016</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>INSTAGRAM</h4>
+      </div>
+
+      <div class="footer-section">
+        <h4>HOJA INFORMATIVA</h4>
+        <div class="newsletter">
+          <p>
+            <strong
+              >Únase a nuestra lista de correo para recibir noticias y
+              anuncios.</strong
+            >
+          </p>
+          <input type="email" placeholder="Introduce tu correo electrón" />
+          <button>IR</button>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 BJ devs | Todos los derechos reservados</p>
+        <nav>
+          <a href="#nosotros">SOBRE NOSOTROS</a>
+          <a href="#equipo">EQUIPO</a>
+          <a href="#obras">OBRAS</a>
+          <a href="#clientela">CLIENTELA</a>
+          <a href="#noticias">NOTICIAS</a>
+          <a href="#contacto">CONTÁCTENOS</a>
+        </nav>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
